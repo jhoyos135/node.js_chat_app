@@ -1,0 +1,83 @@
+body{
+    font-family: 'Nunito';
+    margin: 8px 25px;
+    height: 100vh;
+    overflow: hidden;
+    background: #333;
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #501111;
+}
+
+#mario-chat{
+    background: #f9f9f9;
+    background-image: linear-gradient(rgb(75, 52, 207), pink),
+    linear-gradient(rgb(75, 52, 207), orange),
+    linear-gradient(black, rgb(75, 52, 207)),
+    linear-gradient(rgb(75, 52, 207), pink),
+    linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+    background-size: 2px 400px, 400px 2px, 2px 50px, 400px 2px;
+    background-position: left top, left top, right bottom, right bottom;
+    margin: 20px;
+    clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 87%, 0 48%, 0 0)
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #501111;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    outline: none;
+    padding: 10px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #501111;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 0 0 2px 2px;
+    cursor: pointer;
+}
